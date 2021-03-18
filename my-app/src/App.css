@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.table{
+  background-color: white;
+ 
+  border: 2px solid black;
+ 
+}
+.td{
+  color: black;
+}
+#tableheading{
+  max-width: 35%;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+.form1{
+  text-align: center;
+  padding-top:140px
+}
+.label{
+ font-size: 20px;
+ font-weight: bold;
+}
+.label2{
+  font-size: 20px;
+  font-weight: bold;
+ }
+
+.mealselect{
+  width: 150px;
+  height: 20px;
+  font-weight: bold;
+}
+.mealoption{
+  width: 150px;
+  height: 20px;
+  font-weight: bold;
+}
+.noofpple{
+  padding-top: 50px;
+}
+#submitbtn{
+  margin-top: 50px;
+  font-weight: bold;
+  width: 70px;
+  height: 35px;
+  float: right;
+    margin-right: 350px;
+}
+#prebtn{
+
+  font-weight: bold;
+  width: 100px;
+  height: 35px;
+  float :left;
+  margin-left: 150px;
+  margin-top: 50px;
+
+}
+#nextbtn{
+  font-weight: bold;
+  width: 100px;
+  height: 35px;
+float :right;
+margin-right: 150px;
+margin-top: 50px;
+}
+.finalresult{
+  text-align: center;
+}
+  
+
+#final {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 5em;
+  letter-spacing: -2px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 400px;
+}
